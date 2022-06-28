@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+
+#sect{
+    /* background-image: url("/images/Amazing-Modern-House-Designs-HD-Wallpaper.jpg");
+    background-size: cover;
+    background-attachment: fixed; */
+
+        background:
+        /* top, transparent red, faked with gradient */ linear-gradient(
+          rgba(221, 201, 201, 0.45),
+          rgba(0, 0, 0, 0.45)
+        ),
+        /* bottom, image */ url("/images/new.webp");
+      background-size: cover;
+      background-attachment: fixed;
+    
+}
+
+.btn-custom-1{
+    background-color: rgb(133,195,37);
+}

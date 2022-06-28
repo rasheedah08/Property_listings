@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Property Listing</title>
+</head>
+<body>
+      <section class="vh-100" id="sect">
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark" id="navbar">
+          <div class="container gap-3 justify-content-center" id="navraj">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <img src="./images/house-removebg-preview.png" alt="" class="img-fluid" style="width: 150px;">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent"></div>
+            <div class="col-6">
+              <h2 class="text-center text-light">Welcome to Picket Fence Properties</h2>
+              <h3 class="text-center"></h3>
+          </div>
+          </div>
+        </nav>
+      </section>
+
+      <section id="landing">
+        <div class="container h-100">
+            <div class="row h-100 d-flex justify-content-center align-items-center">
+                
+            </div>
+        </div>
+    </section>
+    <section id="search">
+        <div class="container rounded rounded-5 border border-2 p-3 my-3">
+            <h2 class="text-center">Choose a filter</h2>
+            <div class="row">
+                <div class="mx-auto col-lg-2 col-md-6 ">
+                    <label for="property">Looking For:</label>
+                    <select class="form-select" name="property" id="property">
+                        <option value="">Property Type</option>
+                        <option value="">Plot</option>
+                        <option value="">House</option>
+                        <option value="">Apartment</option>
+                    </select>
+                </div>
+                <div class="mx-auto col-lg-2 col-md-6 ">
+                    <label for="location">Location: </label>
+                    <select class="form-select" name="location" id="location">
+                        <option value="">All Cities</option>
+                        <option value="">Cape Town</option>
+                        <option value="">Strand</option>
+                        <option value="">Noordheok</option>
+                        <option value="">Constantia</option>
+                    </select>
+                </div>
+                <div class="mx-auto col-lg-2 col-md-6 ">
+                    <label for="size">Property size: </label>
+                    <select class="form-select" name="size" id="size">
+                        <option value="">Bedrooms</option>
+                        <option value="">1</option>
+                        <option value="">2-4</option>
+                        <option value="">4+</option>
+                    </select>
+                </div>
+                <div class="mx-auto col-lg-2 col-md-6 ">
+                    <label for="budget">Your Budget: </label>
+                    <select class="form-select" name="budget" id="budget">
+                        <option value="">Max. Price</option>
+                        <option value="">500 000-1 000 000</option>
+                        <option value="">1 000 000+</option>
+                    </select>
+                </div>
+                <!-- <div class="mx-auto col-lg-2 col-md-6 "> -->
+                <!-- <label for=""></label> -->
+                <button id="btnSearch" class="mx-auto col-lg-2 col-md-6 btn btn-custom-1 h-50 mt-4">Search</button>
+                <!-- </div> -->
+            </div>
+        </div>
+    </section>
+    <section class="p-3" id="propertiesList">
+      <section id="property">
+        <div class="flex container">
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col">
+                  <div class="card">
+                    <img src="/images/02C.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="/images/16794f53b521139_t_w_320_h_240.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="/images/1691905_h_4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="/images/7a71def1-462b-4cbe-a9a6-93faa60a09f8.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                      <img src="/images/Amazing-Modern-House-Designs-HD-Wallpaper.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card">
+                      <img src="/images/home-buying2-1.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card">
+                      <img src="/images/istockphoto-1211174464-612x612.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card">
+                      <img src="/images/PROMO_FantasticFrank-b5a986d29b2345abbb3cf53532829f09.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card">
+                      <img src="/images/tiny-new-york-apartments.webp" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card">
+                      <img src="/images/types-of-homes-hero.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+        </div>
+    </section>
+    </section>
+        <section class="vh-100">
+          <h1>
+          
+          </h1>
+        </section>
+        
+        
+    <script src="./script/code.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+
+</html>
