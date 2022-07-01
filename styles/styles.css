@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Lobster&family=Lobster+Two:ital@0;1&family=Ms+Madi&family=Tapestry&display=swap');
+
 body{
-    background-color: black;
+  background-color: black;
     color: white;
 }
-
 
 #sect{
     /* background-image: url("/images/Amazing-Modern-House-Designs-HD-Wallpaper.jpg");
@@ -14,12 +15,134 @@ body{
           rgba(221, 201, 201, 0.45),
           rgba(0, 0, 0, 0.45)
         ),
-        /* bottom, image */ url("/images/new.webp");
+        /* bottom, image */ url("/images/DnN5-SAUYAAY8dX.jpg");
       background-size: cover;
       background-attachment: fixed;
+      background-color: rgb(135, 173, 77);
     
 }
 
 .btn-custom-1{
     background-color: rgb(133,195,37);
+    
+}
+
+#heading{
+  font-family: 'Lobster Two', cursive;
+  color: rgb(133,195,37);
+}
+
+.info{
+  padding-top: 290px;
+  padding-left: 130px;
+}
+
+.title{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 680px;
+}
+
+.table {
+  color: rgb(133,195,37);;
+}
+
+#CONTACT{
+  display: flex;
+  flex-direction: column;
+  background-color: #000000dc;
+}
+
+#CONTACT h1{
+  margin: 50px;
+}
+
+h3{
+  color: white;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.input{
+  padding: 15px 20px;
+  margin: 15px;
+  width: 40%;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+}
+
+#message{
+  margin: 15px;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+#submit{
+  padding: 15px 20px;
+  margin: 30px;
+  width: 15%;
+  border-radius: 20px;
+  background-color: gray;
+  color: white;
+  border: none;
+  outline: none;
+}
+
+#submit:hover{
+  background-color: rgb(133,195,37);
+  color: white;
+  cursor: pointer;
+}
+
+.CONTACT{
+  margin: 0;
+  padding: 0;
+  background-color: #000000dc;
+}
+
+.CONTACT h2{
+  color: white;
+  font-size: 2rem;
+  display: flex;
+  float: inline-end;
+}
+
+.CONTACT{
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.CONTACT img{
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.CONTACT img:hover{
+  background-color: white;
+  cursor: pointer;
+}
+
+
+footer{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  height: 50px;
+  width: 100vw;
+  padding-top: 30px;
+  background-color: black;
+  color: whitesmoke;
+}
+
+.modal label {
+  color: black;
 }
